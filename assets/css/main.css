@@ -1880,6 +1880,67 @@
 		border-color: rgba(255, 255, 255, 0.35);
 	}
 
+
+
+/*全体*/
+.hidden_box {
+    margin: 0 0;
+    padding: 0;
+}
+
+/*ボタン装飾*/
+.hidden_box label {
+    padding: 0;
+    width: 8.0em;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.7em;
+    background: #efefef;
+    border-radius: 5px;
+    cursor :pointer;
+    transition: .5s;
+}
+
+/*アイコンを表示*/
+.hidden_box label:before {
+    display: inline-block;
+    font-family: 'FontAwesome';
+    padding-right: 5px;
+    transition: 0.2s;
+}
+
+/*ボタンホバー時*/
+.hidden_box label:hover {
+    background: silver;
+}
+
+/*アイコンを切り替え*/
+.hidden_box input:checked ~ label:before {
+     content: 'close';
+     color: #668ad8;
+}
+
+/*チェックは見えなくする*/
+.hidden_box input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+    padding: 0 0 3.0em;
+    height: auto;
+    opacity: 1;
+}
+
 /* Button */
 
 	input[type="submit"],
@@ -1896,17 +1957,21 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		/*border-radius: 8px;*/
+		justify-content: center;
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 300;
-		height: 2.75em;
-		line-height: 2.75em;
-		min-width: 9.25em;
+		height: 4.25em;
+		line-height: 1.25em;
+		min-width: 5.0em;
 		padding: 0 1.5em;
 		text-align: center;
 		text-decoration: none;
+		font-weight: bold;
+		font-size: 1.0em;
 		white-space: nowrap;
+		margin-bottom: 2.5em;
 	}
 
 		input[type="submit"].icon,
