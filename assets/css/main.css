@@ -1941,6 +1941,25 @@
     opacity: 1;
 }
 
+/* Registration_button */
+
+.square_btn {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 1.0em 3.0em 1.0em 3.0em;
+    margin: 0 0 2.5em;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000000;
+    background: #FFBB77;
+    transition: .4s;
+}
+
+.square_btn:hover {
+    background: #FFDDAA;
+}
+
 /* Button */
 
 	input[type="submit"],
