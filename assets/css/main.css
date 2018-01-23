@@ -1949,6 +1949,7 @@
     font-weight: bold;
     padding: 1.0em 3.0em 1.0em 3.0em;
     margin: 0 0 2.5em;
+    width: 14.0em;
     border-radius: 10px;
     text-decoration: none;
     color: #000000;
@@ -1958,6 +1959,24 @@
 
 .square_btn:hover {
     background: #FFDDAA;
+}
+
+.square_btn2 {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 1.0em 3.0em 1.0em 3.0em;
+    margin: 0 0 2.5em;
+    width: 14.0em;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000000;
+    background: #ffb6c1;
+    transition: .4s;
+}
+
+.square_btn2:hover {
+    background: #fff0f5;
 }
 
 /* Button */
@@ -2904,6 +2923,7 @@
 	table.alt tbody tr td {
 		border-color: rgba(255, 255, 255, 0.35);
 	}
+
 
 /* Features */
 
