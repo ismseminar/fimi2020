@@ -218,7 +218,92 @@
 											</div>
 											</td>
 											</tr>
-
+											<tr>
+												<td colspan="2"><h2><b>Friday 29 March</b></h2></td>
+											</tr>
+											<tr>
+												<td>09:30-10:30</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="http://www.gatsby.ucl.ac.uk/~gretton/" target="_blank"><b>Arthur Gretton</b></a> (Gatsby Computational Neuroscience Unit)</br>
+												Title: The Maximum Mean Discrepancy for Training Generative Adversarial Networks</br><label for="label_ag" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_ag"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>Generative adversarial networks (GANs) use neural networks as generative models, creating realistic samples that mimic real-life reference samples (for instance, images of faces, bedrooms, and more). These networks require an adaptive critic function while training, to teach the networks how to move improve their samples to better match the reference data. I will describe a kernel divergence measure, the maximum mean discrepancy, which represents one such critic function. With gradient regularisation, the MMD is used to obtain current state-of-the art performance on challenging image generation tasks, including 160 × 160 CelebA and 64 × 64 ImageNet. In addition to adversarial network training, I'll discuss issues of gradient bias for GANs based on integral probability metrics, and mechanisms for benchmarking GAN performance. </h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>10:40-11:40</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="https://noukoudashisoup.github.io" target="_blank"><b>Heishiro Kanagawa</b></a> (Gatsby Unit, UCL)</br>
+												Title: Informative Features for Model Comparison</br><label for="label_hk" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_hk"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>Given two candidate models, and a set of target observations, we address the problem of measuring the relative goodness of fit of the two models. We propose two new statistical tests which are nonparametric, computationally efficient (runtime complexity is linear in the sample size), and interpretable. As a unique advantage, our tests can produce a set of examples (informative features) indicating the regions in the data domain where one model fits significantly better than the other. In a real-world problem of comparing GAN models, the test power of our new test matches that of the state-of-the-art test of relative goodness of fit, while being one order of magnitude faster.</br>This is a joint work with Wittawat Jitkrittum, Patsorn Sangkloy, James Hays, Bernhard Schölkopf, and Arthur Gretton.</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>11:40–13:10</td>
+												<td>Lunch break</td>
+											</tr>
+											<tr>
+												<td>13:10-14:10</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="https://sites.google.com/site/motonobukanagawa/" target="_blank"><b>Motonobu Kanagawa</b></a> (University of Tuebingen)</br>
+												Title: Parameter Estimation and Model Selection for Simulator-based Statistical Models: A Kernel Approach</br><label for="label_mk" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_mk"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>Computer simulation is nowadays a ubiquitous tool in various scientific fields, such as climate science, social science, economics and epidemiology. It is useful in studying time-evolving complex phenomena, for which models may be described by partial or ordinary differential equations, or by multi-agent systems. A key issue regarding computer simulation is how to calibrate a simulation model to observed data, since there are in general parameters in the model that need to be tuned; the problem of parameter estimation must be addressed in practice. Further, typically there exist multiple candidate models for the phenomena of interest, so one also needs to perform model selection on the basis of observed data. These two issues, parameter estimation and model selection, are much more challenging than usual statistical problems; this is because the likelihood function, the conditional probability of observed data given parameters, is not available for a simulator-based statistical model in general, since the mapping from parameters to data is usually very complicated. </br>In this talk, I will describe our recent approach to parameter selection and model selection for simulator-based statistical models. This approach, termed Kernel Recursive ABC, recursively applies approximate Bayesian computations to the same observed data in an iterative way. It is realized as a combination of the kernel ABC and the kernel herding algorithm, and this results in robustness against the misspecification of parameter prior distributions. We discuss how the method works and why it is equipped with such robustness, and report experimental results showing the effectiveness of the proposed approach.</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>14:20-15:20</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="http://okuno.co" target="_blank"><b>Akifumi Okuno</b></a> (Kyoto University / RIKEN AIP)</br>
+												Title: Graph Embedding with Shifted Inner Product Similarity and Its Improved Approximation Capability</br><label for="label_oa" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_oa"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>Given a graph whose each node possesses a vector representation, graph embedding (GE) transforms these node vectors via a vector-valued neural network (NN) so that their similarities represent the weighted adjacency matrix. Whereas inner-product similarity (IPS) is often employed for NN-based GE, Mercer’s theorem indicates that IPS is limited to approximating positive-definite (PD) similarities. To overcome this limitation of IPS, we propose shifted inner-product similarity (SIPS), which is IPS with added bias terms. Despite being a very simple extension of IPS, SIPS is novel: we theoretically prove that SIPS is capable of approximating not only PD but also conditionally PD (CPD) similarities, which includes many non-PD similarities such as cosine similarity, negative Poincare distance, or negative Wasserstein distance. As SIPS with sufficiently large neural networks learns a variety of similarities, SIPS alleviates the need for configuring the similarity function of GE. The approximation error rate is also evaluated, and experiments on two real-world datasets demonstrate that graph embedding using SIPS indeed outperforms existing methods. </br>This is a joint work with Geewook Kim and Hidetoshi Shimodaira.</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>15:30-16:20/td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="https://www.ism.ac.jp/~fukumizu/" target="_blank"><b>Kenji Fukumizu</b></a> (Institute of Statistical Mathematics)</br>
+												Title: Flat local minima and saddle points in invariant structures of neural networks</br><label for="label_kf" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_kf"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5></h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>16:20-16:30</td>
+												<td>Closing</td>
+											</tr>
 										</tbody>
 									</table>
 								</div>
