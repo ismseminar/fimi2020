@@ -1624,7 +1624,7 @@
 
 	body {
 		/*background-color: #935d8c;*/
-		background-image: url("images/potw1712a-resized.jpg");
+		background-image: url("images/nice_back.jpeg");
 		background-attachment: fixed;
 	}
 
@@ -1642,7 +1642,7 @@
 /* Type */
 
 	body {
-		background-image: url("images/potw1712a-resized.jpg");
+		background-image: url("images/nice_back.jpeg");
 		background-size: 100% auto;
 		background-repeat: repeat-y;
 		color: rgba(255, 255, 255, 0.65);
