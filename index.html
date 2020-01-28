@@ -53,7 +53,7 @@
 					<div id="main">
 
 						<!-- Introduction -->
-							<section id="Home" class="main">
+							<section id="home" class="main">
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
@@ -88,7 +88,7 @@
 										</div>
 									</div>
 								</div>
-							<div class="content">
+							<!--<div class="content">
 								<header class="major">
 									<h2>Tentative List of Speakers</h2>
 								</header>
@@ -131,18 +131,252 @@
 						<li>
 						<p><a href="https://markvdw.github.io" target="_blank"><b>Mark van der Wilk</b></a>  (Imperial College London)</p>
 						</li>
-							</div>
+					</div>-->
 							</section>
-						<section id="program" class="main">
+							<section id="program" class="main">
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
 											<h2>Program</h2>
 										</header>
-										<p>To be announced.</p>
 									</div>
 								</div>
-							</section>
+								<div class="table-wrapper">
+									<table>
+										<tbody>
+											<tr>
+												<td colspan="2"><h2><b>Monday 17 Feb.</b></h2></td>
+											</tr>
+											<tr>
+												<td>10:00-11:00</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="http://www.gatsby.ucl.ac.uk/~gretton/" target="_blank"><b>Arthur Gretton</b></a> (University College London)</br>
+												Title: Kernel tests of goodness-of-fit using Stein's method</br><label for="label_1_1" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_1_1"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>I will describe nonparametric, kernel-based tests to assess the relative goodness of fit of models with intractable unnormalized densities. We will begin with the case of models for which the marginal densities are known in closed form, up to normalisation. In this case, we compare expectations of infinite dictionaries of features under the model and data distributions, where these expectations agree when the model and data match. The features are chosen to have zero expectation under the model, which can be achieved for unnormalised densities using the Stein trick. Next, I will describe a test of relative goodness of fit for multiple models, where it is desired to find which model fits best, with the understanding that “all models are wrong." This final test applies even in the case where the models contain latent variables, and closed-form marginal distributions of the observed variables cannot be computed. In the case of models with low-dimensional latent structure and high-dimensional observations, our test significantly outperforms the relative maximum mean discrepancy test, which cannot exploit the latent structure.</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>11:10-12:10</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="https://markvdw.github.io" target="_blank"><b>Mark van der Wilk</b></a> (Imperial College London)</br>
+												Title: Learning Invariances using the Marginal Likelihood</br><label for="label_1_2" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_1_2"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>Kernels provide a powerful way of encoding assumptions about the class of functions that should be used for a particular learning problem. As a consequence, the generalisation ability of kernel methods depends strongly on the choice of kernel. In this work, we use invariances to create kernels with sophisticated inductive biases. Crucially, we show how the marginal likelihood from the Gaussian process framework can be used to learn an appropriate invariance through backpropagation for a given dataset. I will also discuss some technical advances that were made along the way, notably the ability to learn using only unbiased evaluations of the kernel function.</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>12:10–13:40</td>
+												<td>Lunch break</td>
+											</tr>
+											<tr>
+												<td>13:40-14:40</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="http://www.stats.ox.ac.uk/~sejdinov/" target="_blank"><b>Dino Sejdinovic</b></a> (The University of Oxford)</br>
+												Title: Noise Contrastive Meta-Learning for Conditional Density Estimation using Kernel Mean Embeddings</br><label for="label_1_3" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_1_3"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>Current meta-learning approaches focus on learning functional representations of relationships between variables, i.e. estimating conditional expectations in regression. In many applications, however, the conditional distributions cannot be meaningfully summarized solely by expectation (due to e.g. multimodality). We introduce a novel technique for meta-learning conditional densities, which combines neural representation and noise contrastive estimation together with well-established literature in conditional mean embeddings into reproducing kernel Hilbert spaces. The method shows significant improvements over standard density estimation methods on synthetic and real-world data, by leveraging shared representations across multiple conditional density estimation tasks.</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>14:40–15:40</td>
+												<td>Coffee break and Poster</td>
+											</tr>
+											<tr>
+												<td>15:40-16:40</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="http://www.krikamol.org" target="_blank"><b>Krikamol Muandet</b></a> (Max Planck Institute for Intelligent Systems)</br>
+												Title: Learning Conditional Moment Restrictions with Kernels</br><label for="label_1_4" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_1_4"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>TBA.</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>16:50-17:50</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="https://sites.google.com/site/motonobukanagawa/" target="_blank"><b>Motonobu Kanagawa</b></a> (EURECOM)</br>
+												Title: Simulator Calibration under Covariate Shift with Kernels</br><label for="label_1_5" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_1_5"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>Computer simulation has been widely used in many fields of science and engineering. The power of computer simulation is extrapolation, by which one can make predictions about the quantities of interest, for a given hypothetical condition of the target system. A major task regarding simulation is calibration, i.e., the adjustment of parameters of the simulation model to observed data, which is needed to make simulator-based predictions reliable. By definition of extrapolation, predictions are often required in a region where observed data are scarce: this is the situation known as covariate shift in the literature. Our contribution is to propose a novel approach to simulator calibration focusing on the setting of covariate shift. This approach is based on Bayesian inference with kernel mean embedding of distributions, and on the use of an importance-weighted reproducing kernel for covariate shift adaptation. We provide a theoretical analysis for the proposed method, as well as empirical investigations suggesting its effectiveness in practice. The experiments include calibration of a widely used simulator for industrial manufacturing processes, where we also demonstrate how the proposed method may be useful for sensitivity analysis of model parameters.</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td colspan="2"><h2><b>Tuesday 18 Feb.</b></h2></td>
+											</tr>
+											<tr>
+												<td>10:00-11:00</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="http://www.tamarabroderick.com" target="_blank"><b>Tamara Broderick</b></a> (Massachusetts Institute of Technology)</br>
+												Title: TBA</br><label for="label_2_1" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_2_1"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>TBA.</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>11:10-12:10</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="http://www.eurecom.fr/~filippon/" target="_blank"><b>Maurizio Filippone</b></a> (EURECOM)</br>
+												Title: Random Feature Expansions for Deep Gaussian Processes</br><label for="label_2_2" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_2_2"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>Drawing meaningful conclusions on the way complex real life phenomena work and being able to predict the behavior of systems of interest require developing accurate and highly interpretable mathematical models whose parameters need to be estimated from observations. In modern applications, however, we are often challenged with the lack of such models, and even when these are available they are too computational demanding to be suitable for standard parameter optimization/inference methods. While probabilistic models based on Deep Gaussian Processes (DGPs) offer attractive tools to tackle these challenges in a principled way and to allow for a sound quantification of uncertainty, carrying out inference for these models poses huge computational challenges that arguably hinder their wide adoption. In this talk, I will present our contribution to the development of practical and scalable inference for DGPs, which can exploit distributed and GPU computing. In particular, I will introduce a formulation of DGPs based on random features that we infer using stochastic variational inference.</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>12:10–13:40</td>
+												<td>Lunch break</td>
+											</tr>
+											<tr>
+												<td>13:40-14:40</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="https://ivaleram.github.io" target="_blank"><b>Isabel Valera</b></a> (Max Planck Institute for Intelligent Systems)</br>
+												Title: Fair and Explainable algorithmic decision making</br><label for="label_2_3" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_2_3"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>TBA.</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>14:40–15:40</td>
+												<td>Coffee break and Poster</td>
+											</tr>
+											<tr>
+												<td colspan="2"><h2><b>Wednesday 19 Feb.</b></h2></td>
+											</tr>
+											<tr>
+												<td>10:00-11:00</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="http://www.crest.fr/pagesperso.php?user=2891" target="_blank"><b>Alexandre Tsybakov</b></a> (CREST)</br>
+												Title: Data interpolation and statistical optimality</br><label for="label_3_1" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_3_1"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>In this talk, we show that some simple procedures of interpolating the data achieve minimax optimal rates for the problems of nonparametric regression and prediction with squared loss. Moreover, the interpolants can attain the optimal rate adaptively to the smoothness. What is surprising, the optimal rate can be achieved at any fixed point. This shows that the degree, to which a procedure fits the data can be completely decoupled from the notion of overfitting.</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>11:10-12:10</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="https://sites.google.com/view/mimaizumi/" target="_blank"><b>Masaaki Imaizumi</b></a> (The Institute of Statistical Mathematics)</br>
+												Title: Statistical inference on M-estimators by high-dimensional Gaussian approximation</br><label for="label_3_2" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_3_2"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>A statistical inference method is developed for a general class of estimators with fewer restrictions. Measuring the uncertainty of estimators, such as asymptotic normality, is a fundamental and standard tool for statistical inference such as a statistical test and a confidence analysis. However, there are several situations that we cannot evaluate its uncertainty, for example, non-differentiable loss functions and parameter spaces as the non-Donsker class. We consider an M-estimator which is defined as an argmax of an empirical mean of criteria functions. Then, we approximate a distribution of the M-estimator by a supremum of a known Gaussian process. For the method, we employ a notion of the high-dimensional Gaussian approximation and apply it to the approximation. We provide a theoretical bound for an error of the approximation. Moreover, we propose a multiplier bootstrap method for statistical inference.</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>12:10–13:40</td>
+												<td>Lunch break</td>
+											</tr>
+											<tr>
+												<td>13:40-14:40</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="http://ibis.t.u-tokyo.ac.jp/suzuki/" target="_blank"><b>Taiji Suzuki</b></a> (The University of Tokyo)</br>
+												Title: TBA</br><label for="label_3_3" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_3_3"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>TBA.</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>14:40–15:40</td>
+												<td>Coffee break and Poster</td>
+											</tr>
+											<tr>
+												<td>15:40-16:40</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="http://www.personal.psu.edu/bks18/" target="_blank"><b>Bharath Sriperumbudur</b></a> (The Pennsylvania State University)</br>
+												Title: TBA</br><label for="label_3_4" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_3_4"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>TBA.</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+											<tr>
+												<td>16:50-17:50</td>
+												<td>
+											<div class="hidden_box">
+												<p><a href="https://www.ism.ac.jp/~fukumizu/" target="_blank"><b>Kenji Fukumizu</b></a> (The Institute of Statistical Mathematics)</br>
+												Title: Smoothness and Stability in Learning GANs</br><label for="label_3_5" style="display: inline-block; _display: inline;">Abstract</label></p>
+												<input type="checkbox" id="label_3_5"/>
+												<div class="hidden_show">
+													<!--hidden-->     
+													<h5>It is known that generative adversarial networks (GANs) commonly display unstable behavior during training. In this work, we develop a principled theoretical framework for understanding the stability of various types of GANs. In particular, we derive conditions that guarantee eventual stationarity of the generator when it is trained with gradient descent, conditions that must be satisfied by the divergence to be minimized and the architecture of the generator. We find that existing GAN variants satisfy some, but not all, of these conditions. Using tools from convex analysis, optimal transport, and reproducing kernels, we construct a GAN that fulfills these conditions simultaneously. In the derivation, we explain and clarify the need for various existing GAN stabilization techniques, including Lipschitz constraints, gradient penalties, and smooth activation functions. This is a joint work with Casey Chu (Stanford) and Kentaro Minami (Preferred Networks).</h5>
+													<!--hidden-->
+												</div>
+											</div>
+											</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								</section>
+
 							<section id="organizers" class="main">
 								<div class="spotlight">
 									<div class="content">
